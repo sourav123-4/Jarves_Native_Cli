@@ -4,7 +4,7 @@ buildscript {
         minSdkVersion = 21
         compileSdkVersion = 34
         targetSdkVersion = 34
-        ndkVersion = "25.1.8937393"
+        ndkVersion = "26.2.11394342" // this ndk version is coming from local.properties location and if any error regarding this please install ndk version from android studio and check the path from this local.properties file
         kotlinVersion = "1.8.0"
     }
     repositories {
